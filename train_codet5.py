@@ -100,7 +100,7 @@ def main():
     
     # Load tokenizer and model
     print(f"\nLoading {MODEL_NAME}...")
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, use_fast=False)
     model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
     
     # Add pad token if missing
