@@ -79,8 +79,8 @@ def load_all_samples(data_dir: Path) -> List[CADSample]:
 def main():
     # Configuration
     DATA_DIR = Path("./data")
-    MODEL_NAME = "Salesforce/codet5-small"
-    OUTPUT_DIR = "./cad_codet5_finetuned"
+    MODEL_NAME = "google/flan-t5-small"
+    OUTPUT_DIR = "./cad_flan_t5_finetuned"
     NUM_EPOCHS = 10
     BATCH_SIZE = 4  # Adjust based on GPU memory
     LEARNING_RATE = 3e-4
