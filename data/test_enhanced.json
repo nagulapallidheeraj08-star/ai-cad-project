@@ -1,0 +1,2856 @@
+[
+  {
+    "text_input": "Design a 75x118x7mm mounting plate with 2x4 hole pattern, 5mm diameter, 47mm spacing",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 75,
+            "width": 118,
+            "height": 7
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 5
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "multi_hole_pattern",
+      "difficulty": "synthetic",
+      "template": "multi_hole_pattern"
+    }
+  },
+  {
+    "text_input": "Make a truncated cone with base radius 38, top radius 19, height 37",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 38,
+            "height": 37
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 19,
+            "height": 37
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "conical_frustum",
+      "difficulty": "synthetic",
+      "template": "conical_frustum"
+    }
+  },
+  {
+    "text_input": "Make a 72 by 148 by 18 block with a 7x25mm slot through the center",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 72,
+            "width": 148,
+            "height": 18
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 7,
+            "width": 148,
+            "height": 25
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_through_slot",
+      "difficulty": "synthetic",
+      "template": "box_with_through_slot"
+    }
+  },
+  {
+    "text_input": "Design a 117x94x28mm plate featuring a centered pocket 79x35x27mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 117,
+            "width": 94,
+            "height": 28
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 79,
+            "width": 35,
+            "height": 27
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_pocket",
+      "difficulty": "synthetic",
+      "template": "box_with_pocket"
+    }
+  },
+  {
+    "text_input": "Create a 56x124x45mm block with a rectangular pocket 80x31x13mm centered on top face",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 56,
+            "width": 124,
+            "height": 45
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 80,
+            "width": 31,
+            "height": 13
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_pocket",
+      "difficulty": "synthetic",
+      "template": "box_with_pocket"
+    }
+  },
+  {
+    "text_input": "Design a 147x61x15mm plate featuring 7 ribs 12mm wide, 39mm high, 41mm pitch",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 147,
+            "width": 61,
+            "height": 15
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 12,
+            "width": 61,
+            "height": 39
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "ribbed_plate",
+      "difficulty": "synthetic",
+      "template": "ribbed_plate"
+    }
+  },
+  {
+    "text_input": "Make a 116 by 80 by 12 base with 7 stiffening ribs 19x19mm every 39mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 116,
+            "width": 80,
+            "height": 12
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 19,
+            "width": 80,
+            "height": 19
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "ribbed_plate",
+      "difficulty": "synthetic",
+      "template": "ribbed_plate"
+    }
+  },
+  {
+    "text_input": "Design a heat sink: 82x119x10mm base with 8 fins 34mm tall, 2.8mm thick, 9mm spacing",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 82,
+            "width": 119,
+            "height": 10
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 2.8,
+            "width": 119,
+            "height": 34
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "heat_sink",
+      "difficulty": "synthetic",
+      "template": "heat_sink"
+    }
+  },
+  {
+    "text_input": "Create a 121x73x25mm block with a 28mm wide x 19mm tall through slot centered",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 121,
+            "width": 73,
+            "height": 25
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 28,
+            "width": 73,
+            "height": 19
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_through_slot",
+      "difficulty": "synthetic",
+      "template": "box_with_through_slot"
+    }
+  },
+  {
+    "text_input": "Make a sphere segment radius 28mm, cap height 20mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "sphere",
+          "params": {
+            "radius": 28
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 56,
+            "width": 56,
+            "height": 20
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "spherical_cap",
+      "difficulty": "synthetic",
+      "template": "spherical_cap"
+    }
+  },
+  {
+    "text_input": "Design a stepped shaft: 42mm diameter x 31mm, 18mm diameter x 49mm, 12mm diameter x 19mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 21.0,
+            "height": 31
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 9.0,
+            "height": 49
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 6.0,
+            "height": 19
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "stepped_shaft",
+      "difficulty": "synthetic",
+      "template": "stepped_shaft"
+    }
+  },
+  {
+    "text_input": "Make a shaft 158x53mm with 11mm keyway running the full length",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 26.5,
+            "height": 158
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 158,
+            "width": 11,
+            "height": 11
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_keyway",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_keyway"
+    }
+  },
+  {
+    "text_input": "Make a 46 by 84 by 21 box with a centered 40mm hole through it",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 46,
+            "width": 84,
+            "height": 21
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 40
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_hole",
+      "difficulty": "synthetic",
+      "template": "box_with_hole"
+    }
+  },
+  {
+    "text_input": "Create a 36x91x47mm block with 3mm chamfers on all top edges",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 36,
+            "width": 91,
+            "height": 47
+          }
+        },
+        {
+          "type": "chamfer",
+          "params": {
+            "distance": 3,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_chamfer",
+      "difficulty": "synthetic",
+      "template": "box_with_chamfer"
+    }
+  },
+  {
+    "text_input": "Make a 58 by 55 by 72 block with 9mm corner fillets",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 58,
+            "width": 55,
+            "height": 72
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 9,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_rounded_corners",
+      "difficulty": "synthetic",
+      "template": "box_with_rounded_corners"
+    }
+  },
+  {
+    "text_input": "Design a tapered shaft: 18mm to 13mm over 79mm length",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 9.0,
+            "height": 79
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 6.5,
+            "height": 79
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "tapered_shaft",
+      "difficulty": "synthetic",
+      "template": "tapered_shaft"
+    }
+  },
+  {
+    "text_input": "Design a 57mm cube featuring 14mm fillets on every edge",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 57,
+            "width": 57,
+            "height": 57
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 14,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_fillets",
+      "difficulty": "synthetic",
+      "template": "box_with_fillets"
+    }
+  },
+  {
+    "text_input": "Create a spherical cap: radius 25mm, height 16mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "sphere",
+          "params": {
+            "radius": 25
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 50,
+            "width": 50,
+            "height": 16
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "spherical_cap",
+      "difficulty": "synthetic",
+      "template": "spherical_cap"
+    }
+  },
+  {
+    "text_input": "Make a tube 65mm OD, 36mm ID, 191mm tall",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 32.5,
+            "height": 191
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 18.0,
+            "height": 191
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hollow_cylinder",
+      "difficulty": "synthetic",
+      "template": "hollow_cylinder"
+    }
+  },
+  {
+    "text_input": "Make a 127 by 43 by 67 box with a centered 40mm hole through it",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 127,
+            "width": 43,
+            "height": 67
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 40
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_hole",
+      "difficulty": "synthetic",
+      "template": "box_with_hole"
+    }
+  },
+  {
+    "text_input": "Design a project box 171x84x70mm, 5mm thick walls",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 171,
+            "width": 84,
+            "height": 70
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 161,
+            "width": 74,
+            "height": 65
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 171,
+            "width": 84,
+            "height": 3
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "enclosure_box",
+      "difficulty": "synthetic",
+      "template": "enclosure_box"
+    }
+  },
+  {
+    "text_input": "Make a 168 by 165 by 19 plate with 2 rows and 2 columns of 4mm holes on 40mm centers",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 168,
+            "width": 165,
+            "height": 19
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 4
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "multi_hole_pattern",
+      "difficulty": "synthetic",
+      "template": "multi_hole_pattern"
+    }
+  },
+  {
+    "text_input": "Design a bracket: 112mm x 70mm base plate, 6mm thick, with two 15mm mounting holes 83mm apart, and a 70mm tall vertical flange with 8mm fillets",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 112,
+            "width": 70,
+            "height": 6
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 15
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 112,
+            "width": 10,
+            "height": 70
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 8,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "bracket_with_holes",
+      "difficulty": "synthetic",
+      "template": "bracket_with_holes"
+    }
+  },
+  {
+    "text_input": "Create a 131x184x11mm plate with a 6x3 grid of 13mm holes spaced 45mm apart",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 131,
+            "width": 184,
+            "height": 11
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 13
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "multi_hole_pattern",
+      "difficulty": "synthetic",
+      "template": "multi_hole_pattern"
+    }
+  },
+  {
+    "text_input": "Design a flanged cylinder: shaft 17mm diameter x 122mm long, flange 14mm diameter x 12mm thick",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 8.5,
+            "height": 122
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 7.0,
+            "height": 12
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "flanged_cylinder",
+      "difficulty": "synthetic",
+      "template": "flanged_cylinder"
+    }
+  },
+  {
+    "text_input": "Design a 130x94x50mm plate featuring a centered 5mm x 8mm slot",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 130,
+            "width": 94,
+            "height": 50
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 5,
+            "width": 94,
+            "height": 8
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_through_slot",
+      "difficulty": "synthetic",
+      "template": "box_with_through_slot"
+    }
+  },
+  {
+    "text_input": "Design a hex nut: 34mm across flats, 16mm thick, 22mm thread diameter",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 19.635,
+            "height": 16
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 22
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hex_nut",
+      "difficulty": "synthetic",
+      "template": "hex_nut"
+    }
+  },
+  {
+    "text_input": "Design a tapered shaft: 50mm to 13mm over 179mm length",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 25.0,
+            "height": 179
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 6.5,
+            "height": 179
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "tapered_shaft",
+      "difficulty": "synthetic",
+      "template": "tapered_shaft"
+    }
+  },
+  {
+    "text_input": "Generate a 28mm long, 18mm wide, 21mm tall block with 16mm hole",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 28,
+            "width": 18,
+            "height": 21
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 16
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_hole",
+      "difficulty": "synthetic",
+      "template": "box_with_hole"
+    }
+  },
+  {
+    "text_input": "Create a 93x93x93mm cube with 4mm rounded edges",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 93,
+            "width": 93,
+            "height": 93
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 4,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_fillets",
+      "difficulty": "synthetic",
+      "template": "box_with_fillets"
+    }
+  },
+  {
+    "text_input": "Design a flanged cylinder 62mm x 40mm with 7 bolt holes 10mm diameter on 100mm PCD",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 31.0,
+            "height": 40
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 50.0,
+            "height": 10
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 10
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_flange_and_holes",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_flange_and_holes"
+    }
+  },
+  {
+    "text_input": "Design a 68x94x29mm plate with 14mm counterbore 9mm deep",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 68,
+            "width": 94,
+            "height": 29
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 14
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 7.0,
+            "height": 9
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_counterbore",
+      "difficulty": "synthetic",
+      "template": "box_with_counterbore"
+    }
+  },
+  {
+    "text_input": "Design a tapered shaft: 45mm to 9mm over 119mm length",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 22.5,
+            "height": 119
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 4.5,
+            "height": 119
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "tapered_shaft",
+      "difficulty": "synthetic",
+      "template": "tapered_shaft"
+    }
+  },
+  {
+    "text_input": "Create a hollow cylinder with 32mm outer diameter, 27mm inner diameter, and 91mm height",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 16.0,
+            "height": 91
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 13.5,
+            "height": 91
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hollow_cylinder",
+      "difficulty": "synthetic",
+      "template": "hollow_cylinder"
+    }
+  },
+  {
+    "text_input": "Design a 92x49x27mm block with 5mm beveled edges",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 92,
+            "width": 49,
+            "height": 27
+          }
+        },
+        {
+          "type": "chamfer",
+          "params": {
+            "distance": 5,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_chamfer",
+      "difficulty": "synthetic",
+      "template": "box_with_chamfer"
+    }
+  },
+  {
+    "text_input": "Create a hollow cylinder with 118mm outer diameter, 47mm inner diameter, and 40mm height",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 59.0,
+            "height": 40
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 23.5,
+            "height": 40
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hollow_cylinder",
+      "difficulty": "synthetic",
+      "template": "hollow_cylinder"
+    }
+  },
+  {
+    "text_input": "Make a 55 by 71 by 29 block with a 18x53x5mm cavity",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 55,
+            "width": 71,
+            "height": 29
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 18,
+            "width": 53,
+            "height": 5
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_pocket",
+      "difficulty": "synthetic",
+      "template": "box_with_pocket"
+    }
+  },
+  {
+    "text_input": "Design a 43x78x75mm rectangular prism with 2mm rounded vertical corners",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 43,
+            "width": 78,
+            "height": 75
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 2,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_rounded_corners",
+      "difficulty": "synthetic",
+      "template": "box_with_rounded_corners"
+    }
+  },
+  {
+    "text_input": "Create a 91 by 77 by 13 heat sink with 9 fins 27x2.6mm every 9mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 91,
+            "width": 77,
+            "height": 13
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 2.6,
+            "width": 77,
+            "height": 27
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "heat_sink",
+      "difficulty": "synthetic",
+      "template": "heat_sink"
+    }
+  },
+  {
+    "text_input": "Make a 12mm hex nut, 18mm height, 8mm hole",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 6.93,
+            "height": 18
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 8
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hex_nut",
+      "difficulty": "synthetic",
+      "template": "hex_nut"
+    }
+  },
+  {
+    "text_input": "Create a 181x164x11mm plate with a 2x2 grid of 14mm holes spaced 42mm apart",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 181,
+            "width": 164,
+            "height": 11
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 14
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "multi_hole_pattern",
+      "difficulty": "synthetic",
+      "template": "multi_hole_pattern"
+    }
+  },
+  {
+    "text_input": "Design a frustum: bottom 46mm, top 10mm, 26mm tall",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 46,
+            "height": 26
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 10,
+            "height": 26
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "conical_frustum",
+      "difficulty": "synthetic",
+      "template": "conical_frustum"
+    }
+  },
+  {
+    "text_input": "Create a 67x85x15mm block with a 22mm counterbore 5mm deep for a socket head cap screw",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 67,
+            "width": 85,
+            "height": 15
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 22
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 11.0,
+            "height": 5
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_counterbore",
+      "difficulty": "synthetic",
+      "template": "box_with_counterbore"
+    }
+  },
+  {
+    "text_input": "Make a 115 by 61 by 37 block with 4mm corner fillets",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 115,
+            "width": 61,
+            "height": 37
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 4,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_rounded_corners",
+      "difficulty": "synthetic",
+      "template": "box_with_rounded_corners"
+    }
+  },
+  {
+    "text_input": "Create a 81x118x14mm plate with 7 reinforcing ribs 9mm wide x 12mm tall spaced 37mm apart",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 81,
+            "width": 118,
+            "height": 14
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 9,
+            "width": 118,
+            "height": 12
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "ribbed_plate",
+      "difficulty": "synthetic",
+      "template": "ribbed_plate"
+    }
+  },
+  {
+    "text_input": "Create an L-bracket 129x39x12mm with two 15mm holes spaced 41mm, vertical flange 88mm with 4mm fillets",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 129,
+            "width": 39,
+            "height": 12
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 15
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 129,
+            "width": 10,
+            "height": 88
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 4,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "bracket_with_holes",
+      "difficulty": "synthetic",
+      "template": "bracket_with_holes"
+    }
+  },
+  {
+    "text_input": "Design a flanged cylinder: shaft 25mm diameter x 175mm long, flange 22mm diameter x 7mm thick",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 12.5,
+            "height": 175
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 11.0,
+            "height": 7
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "flanged_cylinder",
+      "difficulty": "synthetic",
+      "template": "flanged_cylinder"
+    }
+  },
+  {
+    "text_input": "Create a 37x99x18mm block with 6mm chamfers on all top edges",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 37,
+            "width": 99,
+            "height": 18
+          }
+        },
+        {
+          "type": "chamfer",
+          "params": {
+            "distance": 6,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_chamfer",
+      "difficulty": "synthetic",
+      "template": "box_with_chamfer"
+    }
+  },
+  {
+    "text_input": "Design a 38x60x40mm block with 2mm beveled edges",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 38,
+            "width": 60,
+            "height": 40
+          }
+        },
+        {
+          "type": "chamfer",
+          "params": {
+            "distance": 2,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_chamfer",
+      "difficulty": "synthetic",
+      "template": "box_with_chamfer"
+    }
+  },
+  {
+    "text_input": "Create a spur gear blank 69mm diameter, 22mm hole, 17mm face width",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 34.5,
+            "height": 17
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 22
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "gear_blank",
+      "difficulty": "synthetic",
+      "template": "gear_blank"
+    }
+  },
+  {
+    "text_input": "Design a stepped shaft: 30mm diameter x 30mm, 23mm diameter x 51mm, 20mm diameter x 28mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 15.0,
+            "height": 30
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 11.5,
+            "height": 51
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 10.0,
+            "height": 28
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "stepped_shaft",
+      "difficulty": "synthetic",
+      "template": "stepped_shaft"
+    }
+  },
+  {
+    "text_input": "Design a cylindrical shaft 147mm long with 22mm diameter, with a 14mm keyway slot along its length",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 11.0,
+            "height": 147
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 147,
+            "width": 14,
+            "height": 14
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_keyway",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_keyway"
+    }
+  },
+  {
+    "text_input": "Design a hex nut: 36mm across flats, 9mm thick, 21mm thread diameter",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 20.79,
+            "height": 9
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 21
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hex_nut",
+      "difficulty": "synthetic",
+      "template": "hex_nut"
+    }
+  },
+  {
+    "text_input": "Design a cylindrical shaft 105mm long with 53mm diameter, with a 6mm keyway slot along its length",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 26.5,
+            "height": 105
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 105,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_keyway",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_keyway"
+    }
+  },
+  {
+    "text_input": "Create an electronic enclosure: 126x62x63mm outer, 2mm wall thickness, 3mm lid thickness",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 126,
+            "width": 62,
+            "height": 63
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 122,
+            "width": 58,
+            "height": 61
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 126,
+            "width": 62,
+            "height": 3
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "enclosure_box",
+      "difficulty": "synthetic",
+      "template": "enclosure_box"
+    }
+  },
+  {
+    "text_input": "Design a cylindrical shell: outer 28mm, inner 15mm, height 189mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 14.0,
+            "height": 189
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 7.5,
+            "height": 189
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hollow_cylinder",
+      "difficulty": "synthetic",
+      "template": "hollow_cylinder"
+    }
+  },
+  {
+    "text_input": "Create a cylinder 58x71mm with a 55mm diameter flange 29mm thick at the base",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 29.0,
+            "height": 71
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 27.5,
+            "height": 29
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "flanged_cylinder",
+      "difficulty": "synthetic",
+      "template": "flanged_cylinder"
+    }
+  },
+  {
+    "text_input": "Design a gear blank: 128mm OD, 25mm bore, 21mm thick, 53 teeth",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 64.0,
+            "height": 21
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 25
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "gear_blank",
+      "difficulty": "synthetic",
+      "template": "gear_blank"
+    }
+  },
+  {
+    "text_input": "Design a frustum: bottom 19mm, top 18mm, 68mm tall",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 19,
+            "height": 68
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 18,
+            "height": 68
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "conical_frustum",
+      "difficulty": "synthetic",
+      "template": "conical_frustum"
+    }
+  },
+  {
+    "text_input": "Design a 63x94x34mm plate with 13mm counterbore 8mm deep",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 63,
+            "width": 94,
+            "height": 34
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 13
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 6.5,
+            "height": 8
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_counterbore",
+      "difficulty": "synthetic",
+      "template": "box_with_counterbore"
+    }
+  },
+  {
+    "text_input": "Design a 110x69x52mm plate featuring a centered pocket 38x10x7mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 110,
+            "width": 69,
+            "height": 52
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 38,
+            "width": 10,
+            "height": 7
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_pocket",
+      "difficulty": "synthetic",
+      "template": "box_with_pocket"
+    }
+  },
+  {
+    "text_input": "Create a pipe flange: 62mm bore, 57mm long, 12 x 11mm holes on 83mm bolt circle",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 31.0,
+            "height": 57
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 41.5,
+            "height": 10
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 11
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_flange_and_holes",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_flange_and_holes"
+    }
+  },
+  {
+    "text_input": "Create a conical shaft from 48mm diameter to 11mm diameter, 137mm long",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 24.0,
+            "height": 137
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 5.5,
+            "height": 137
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "tapered_shaft",
+      "difficulty": "synthetic",
+      "template": "tapered_shaft"
+    }
+  },
+  {
+    "text_input": "Design a bracket: 69mm x 34mm base plate, 15mm thick, with two 10mm mounting holes 71mm apart, and a 54mm tall vertical flange with 2mm fillets",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 69,
+            "width": 34,
+            "height": 15
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 10
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 69,
+            "width": 10,
+            "height": 54
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 2,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "bracket_with_holes",
+      "difficulty": "synthetic",
+      "template": "bracket_with_holes"
+    }
+  },
+  {
+    "text_input": "Make a gear blank for 13 tooth gear: 81mm x 42mm x 20mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 40.5,
+            "height": 20
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 42
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "gear_blank",
+      "difficulty": "synthetic",
+      "template": "gear_blank"
+    }
+  },
+  {
+    "text_input": "Create a three-step shaft: 33x47, 32x66, 30x50 mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 16.5,
+            "height": 47
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 16.0,
+            "height": 66
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 15.0,
+            "height": 50
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "stepped_shaft",
+      "difficulty": "synthetic",
+      "template": "stepped_shaft"
+    }
+  },
+  {
+    "text_input": "Design a 99mm cube featuring 15mm fillets on every edge",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 99,
+            "width": 99,
+            "height": 99
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 15,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_fillets",
+      "difficulty": "synthetic",
+      "template": "box_with_fillets"
+    }
+  },
+  {
+    "text_input": "Create a 26mm x 50mm x 41mm rectangular block with a 17mm diameter through-hole in the center",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 26,
+            "width": 50,
+            "height": 41
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 17
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_hole",
+      "difficulty": "synthetic",
+      "template": "box_with_hole"
+    }
+  },
+  {
+    "text_input": "Design a dome: 41mm radius, 14mm tall",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "sphere",
+          "params": {
+            "radius": 41
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 82,
+            "width": 82,
+            "height": 14
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "spherical_cap",
+      "difficulty": "synthetic",
+      "template": "spherical_cap"
+    }
+  },
+  {
+    "text_input": "Make a gear blank for 29 tooth gear: 54mm x 33mm x 20mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 27.0,
+            "height": 20
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 33
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "gear_blank",
+      "difficulty": "synthetic",
+      "template": "gear_blank"
+    }
+  },
+  {
+    "text_input": "Create a three-step shaft: 50x26, 11x61, 22x15 mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 25.0,
+            "height": 26
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 5.5,
+            "height": 61
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 11.0,
+            "height": 15
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "stepped_shaft",
+      "difficulty": "synthetic",
+      "template": "stepped_shaft"
+    }
+  },
+  {
+    "text_input": "Design a flanged cylinder 62mm x 39mm with 11 bolt holes 11mm diameter on 146mm PCD",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 31.0,
+            "height": 39
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 73.0,
+            "height": 10
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 11
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_flange_and_holes",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_flange_and_holes"
+    }
+  },
+  {
+    "text_input": "Design a 146x87x12mm mounting plate with 3x3 hole pattern, 12mm diameter, 43mm spacing",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 146,
+            "width": 87,
+            "height": 12
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 12
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "multi_hole_pattern",
+      "difficulty": "synthetic",
+      "template": "multi_hole_pattern"
+    }
+  },
+  {
+    "text_input": "Design a bracket: 73mm x 47mm base plate, 6mm thick, with two 16mm mounting holes 91mm apart, and a 88mm tall vertical flange with 5mm fillets",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 73,
+            "width": 47,
+            "height": 6
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 16
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 73,
+            "width": 10,
+            "height": 88
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 5,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "bracket_with_holes",
+      "difficulty": "synthetic",
+      "template": "bracket_with_holes"
+    }
+  },
+  {
+    "text_input": "Make a 146 by 75 by 17 block with a 5x15mm slot through the center",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 146,
+            "width": 75,
+            "height": 17
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 5,
+            "width": 75,
+            "height": 15
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_through_slot",
+      "difficulty": "synthetic",
+      "template": "box_with_through_slot"
+    }
+  },
+  {
+    "text_input": "Create a three-step shaft: 18x30, 15x20, 17x31 mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 9.0,
+            "height": 30
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 7.5,
+            "height": 20
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 8.5,
+            "height": 31
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "stepped_shaft",
+      "difficulty": "synthetic",
+      "template": "stepped_shaft"
+    }
+  },
+  {
+    "text_input": "Create a 95x40x26mm block with 2mm chamfers on all top edges",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 95,
+            "width": 40,
+            "height": 26
+          }
+        },
+        {
+          "type": "chamfer",
+          "params": {
+            "distance": 2,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_chamfer",
+      "difficulty": "synthetic",
+      "template": "box_with_chamfer"
+    }
+  },
+  {
+    "text_input": "Create a 204mm long cylinder of 43mm diameter featuring a 4mm wide keyway",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 21.5,
+            "height": 204
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 204,
+            "width": 4,
+            "height": 4
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_keyway",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_keyway"
+    }
+  },
+  {
+    "text_input": "Make a heat sink base 62x118x14mm, 14 fins 40mm high, 2.9mm thick, 3mm pitch",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 62,
+            "width": 118,
+            "height": 14
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 2.9,
+            "width": 118,
+            "height": 40
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "heat_sink",
+      "difficulty": "synthetic",
+      "template": "heat_sink"
+    }
+  },
+  {
+    "text_input": "Design a 44x98x34mm plate with 16mm counterbore 15mm deep",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 44,
+            "width": 98,
+            "height": 34
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 16
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 8.0,
+            "height": 15
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_counterbore",
+      "difficulty": "synthetic",
+      "template": "box_with_counterbore"
+    }
+  },
+  {
+    "text_input": "Create a 257mm long cylinder of 10mm diameter featuring a 8mm wide keyway",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 5.0,
+            "height": 257
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 257,
+            "width": 8,
+            "height": 8
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_keyway",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_keyway"
+    }
+  },
+  {
+    "text_input": "Make a 149 by 92 by 13 box with a centered 38mm hole through it",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 149,
+            "width": 92,
+            "height": 13
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 38
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_hole",
+      "difficulty": "synthetic",
+      "template": "box_with_hole"
+    }
+  },
+  {
+    "text_input": "Make a tube 101mm OD, 56mm ID, 61mm tall",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 50.5,
+            "height": 61
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 28.0,
+            "height": 61
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hollow_cylinder",
+      "difficulty": "synthetic",
+      "template": "hollow_cylinder"
+    }
+  },
+  {
+    "text_input": "Design a frustum: bottom 52mm, top 32mm, 94mm tall",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 52,
+            "height": 94
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 32,
+            "height": 94
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "conical_frustum",
+      "difficulty": "synthetic",
+      "template": "conical_frustum"
+    }
+  },
+  {
+    "text_input": "Create a conical frustum: bottom radius 24mm, top radius 15mm, height 74mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 24,
+            "height": 74
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 15,
+            "height": 74
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "conical_frustum",
+      "difficulty": "synthetic",
+      "template": "conical_frustum"
+    }
+  },
+  {
+    "text_input": "Make a stepped shaft: 41mm x 47mm body, 38mm x 29mm flange",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 20.5,
+            "height": 47
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 19.0,
+            "height": 29
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "flanged_cylinder",
+      "difficulty": "synthetic",
+      "template": "flanged_cylinder"
+    }
+  },
+  {
+    "text_input": "Design a 89x97x18mm plate with 25mm counterbore 5mm deep",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 89,
+            "width": 97,
+            "height": 18
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 25
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 12.5,
+            "height": 5
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_counterbore",
+      "difficulty": "synthetic",
+      "template": "box_with_counterbore"
+    }
+  },
+  {
+    "text_input": "Make a 68mm cube with 2mm fillets on all edges",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 68,
+            "width": 68,
+            "height": 68
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 2,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_fillets",
+      "difficulty": "synthetic",
+      "template": "box_with_fillets"
+    }
+  },
+  {
+    "text_input": "Make a 91 by 125 by 56 block with a 57x66x21mm cavity",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 91,
+            "width": 125,
+            "height": 56
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 57,
+            "width": 66,
+            "height": 21
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_pocket",
+      "difficulty": "synthetic",
+      "template": "box_with_pocket"
+    }
+  },
+  {
+    "text_input": "Design a hex nut: 17mm across flats, 16mm thick, 5mm thread diameter",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 9.8175,
+            "height": 16
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 5
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "hex_nut",
+      "difficulty": "synthetic",
+      "template": "hex_nut"
+    }
+  },
+  {
+    "text_input": "Design a dome: 21mm radius, 27mm tall",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "sphere",
+          "params": {
+            "radius": 21
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 42,
+            "width": 42,
+            "height": 27
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "spherical_cap",
+      "difficulty": "synthetic",
+      "template": "spherical_cap"
+    }
+  },
+  {
+    "text_input": "Design a project box 197x127x55mm, 4mm thick walls",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 197,
+            "width": 127,
+            "height": 55
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 189,
+            "width": 119,
+            "height": 51
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 197,
+            "width": 127,
+            "height": 6
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "enclosure_box",
+      "difficulty": "synthetic",
+      "template": "enclosure_box"
+    }
+  },
+  {
+    "text_input": "Create a 76 by 66 by 11 heat sink with 15 fins 44x2.6mm every 6mm",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 76,
+            "width": 66,
+            "height": 11
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 2.6,
+            "width": 66,
+            "height": 44
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "heat_sink",
+      "difficulty": "synthetic",
+      "template": "heat_sink"
+    }
+  },
+  {
+    "text_input": "Make a stepped shaft: 10mm x 183mm body, 7mm x 20mm flange",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 5.0,
+            "height": 183
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 3.5,
+            "height": 20
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "flanged_cylinder",
+      "difficulty": "synthetic",
+      "template": "flanged_cylinder"
+    }
+  },
+  {
+    "text_input": "Design a 78mm cube featuring 9mm fillets on every edge",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 78,
+            "width": 78,
+            "height": 78
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 9,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_fillets",
+      "difficulty": "synthetic",
+      "template": "box_with_fillets"
+    }
+  },
+  {
+    "text_input": "Make a 33 by 52 by 67 block with 7mm corner fillets",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 33,
+            "width": 52,
+            "height": 67
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 7,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "box_with_rounded_corners",
+      "difficulty": "synthetic",
+      "template": "box_with_rounded_corners"
+    }
+  },
+  {
+    "text_input": "Design a bracket: 99mm x 78mm base plate, 7mm thick, with two 15mm mounting holes 91mm apart, and a 48mm tall vertical flange with 6mm fillets",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 99,
+            "width": 78,
+            "height": 7
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 15
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 99,
+            "width": 10,
+            "height": 48
+          }
+        },
+        {
+          "type": "fillet",
+          "params": {
+            "radius": 6,
+            "edges": "|Z"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "bracket_with_holes",
+      "difficulty": "synthetic",
+      "template": "bracket_with_holes"
+    }
+  },
+  {
+    "text_input": "Make a 108 by 72 by 35 box with 5mm walls and 3mm lid",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 108,
+            "width": 72,
+            "height": 35
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 98,
+            "width": 62,
+            "height": 30
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 108,
+            "width": 72,
+            "height": 3
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "enclosure_box",
+      "difficulty": "synthetic",
+      "template": "enclosure_box"
+    }
+  },
+  {
+    "text_input": "Make a 35x57mm cylinder with 4-hole flange pattern 15mm holes at 60mm PCD",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 17.5,
+            "height": 57
+          }
+        },
+        {
+          "type": "cylinder",
+          "params": {
+            "radius": 30.0,
+            "height": 10
+          }
+        },
+        {
+          "type": "hole",
+          "params": {
+            "diameter": 15
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "cylinder_with_flange_and_holes",
+      "difficulty": "synthetic",
+      "template": "cylinder_with_flange_and_holes"
+    }
+  },
+  {
+    "text_input": "Create a 144x93x7mm plate with 5 reinforcing ribs 9mm wide x 38mm tall spaced 27mm apart",
+    "cad_output": {
+      "operations": [
+        {
+          "type": "box",
+          "params": {
+            "length": 144,
+            "width": 93,
+            "height": 7
+          }
+        },
+        {
+          "type": "box",
+          "params": {
+            "length": 9,
+            "width": 93,
+            "height": 38
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "category": "ribbed_plate",
+      "difficulty": "synthetic",
+      "template": "ribbed_plate"
+    }
+  }
+]
