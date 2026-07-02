@@ -4,6 +4,12 @@ Fine-tune CodeT5-base for Text-to-CAD generation.
 Optimized for Google Colab (A100/T4) or local GPU training.
 """
 import os
+import sys
+import subprocess
+
+# Install sentencepiece for CodeT5 tokenizer
+subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "sentencepiece"])
+
 import json
 import torch
 import random
