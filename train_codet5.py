@@ -129,7 +129,7 @@ def main():
         logging_dir=f'{OUTPUT_DIR}/logs',
         logging_steps=10,
         save_strategy="epoch",
-        evaluation_strategy="no",
+        eval_strategy="no",
         learning_rate=LEARNING_RATE,
         fp16=torch.cuda.is_available(),
         gradient_checkpointing=True,
