@@ -18,8 +18,8 @@ from dataclasses import dataclass, asdict
 from typing import List, Dict, Any
 from torch.utils.data import Dataset, DataLoader, random_split
 from transformers import (
-    T5Tokenizer,
-    T5ForConditionalGeneration,
+    AutoTokenizer,
+    AutoModelForSeq2SeqLM,
     Trainer,
     TrainingArguments,
     DataCollatorForSeq2Seq,
@@ -154,8 +154,8 @@ def main():
     
     # Load tokenizer and model
     print(f"\nLoading {MODEL_NAME}...")
-    tokenizer = T5Tokenizer.from_pretrained(MODEL_NAME, legacy=False)
-    model = T5ForConditionalGeneration.from_pretrained(MODEL_NAME)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, use_fast=False)
+    model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
     
     # Add pad token if missing
     if tokenizer.pad_token is None:
