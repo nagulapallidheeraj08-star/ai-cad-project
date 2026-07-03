@@ -91,7 +91,7 @@ def compute_metrics(eval_preds):
     import re
     
     preds, labels = eval_preds
-    tokenizer = AutoTokenizer.from_pretrained("Salesforce/codet5-base")
+    tokenizer = AutoTokenizer.from_pretrained("google/t5-base")
     
     decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
@@ -122,8 +122,8 @@ def compute_metrics(eval_preds):
 def main():
     # Configuration
     DATA_DIR = Path("./data")
-    MODEL_NAME = "Salesforce/codet5-base"  # 220M params - better for code generation
-    OUTPUT_DIR = "./cad_codet5_base_finetuned"
+    MODEL_NAME = "google/t5-base"  # 220M params - standard T5 tokenizer, no RoBERTa issues
+    OUTPUT_DIR = "./cad_t5_base_finetuned"
     NUM_EPOCHS = 40
     BATCH_SIZE = 8  # Adjust based on GPU memory (A100: 16-32, T4: 4-8)
     LEARNING_RATE = 2e-4
