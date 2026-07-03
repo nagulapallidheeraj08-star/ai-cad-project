@@ -206,7 +206,6 @@ def main():
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        tokenizer=tokenizer,
         data_collator=data_collator,
         callbacks=[EarlyStoppingCallback(early_stopping_patience=5)],
     )
