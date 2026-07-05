@@ -173,7 +173,16 @@ def main():
         padding=True
     )
     
-    # Training arguments - optimized for CodeT5
+    # Check for existing checkpoints to resume
+    checkpoint_path = None
+    if os.path.exists(OUTPUT_DIR):
+        checkpoints = [d for d in os.listdir(OUTPUT_DIR) if d.startswith("checkpoint-")]
+        if checkpoints:
+            checkpoints.sort(key=lambda x: int(x.split("-")[1]))
+            checkpoint_path = os.path.join(OUTPUT_DIR, checkpoints[-1])
+            print(f"Resuming from checkpoint: {checkpoint_path}")
+    
+    # Training arguments
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
         num_train_epochs=NUM_EPOCHS,
@@ -188,7 +197,7 @@ def main():
         eval_strategy="epoch",
         learning_rate=LEARNING_RATE,
         fp16=torch.cuda.is_available(),
-        bf16=torch.cuda.is_available() and torch.cuda.get_device_capability()[0] >= 8,  # A100+
+        bf16=torch.cuda.is_available() and torch.cuda.get_device_capability()[0] >= 8,
         gradient_checkpointing=True,
         dataloader_num_workers=2,
         remove_unused_columns=False,
@@ -211,7 +220,7 @@ def main():
     )
     
     print("\nStarting training...")
-    trainer.train()
+    trainer.train(resume_from_checkpoint=checkpoint_path)
     
     # Save final model
     trainer.save_model(OUTPUT_DIR)
