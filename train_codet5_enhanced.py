@@ -177,7 +177,7 @@ def main():
         padding=True
     )
     
-    # Check for existing checkpoints to resume
+# Check for existing checkpoints to resume
     checkpoint_path = None
     if os.path.exists(OUTPUT_DIR):
         checkpoints = [d for d in os.listdir(OUTPUT_DIR) if d.startswith("checkpoint-")]
@@ -185,6 +185,10 @@ def main():
             checkpoints.sort(key=lambda x: int(x.split("-")[1]))
             checkpoint_path = os.path.join(OUTPUT_DIR, checkpoints[-1])
             print(f"Resuming from checkpoint: {checkpoint_path}")
+        else:
+            print(f"Output dir exists but no checkpoints found: {OUTPUT_DIR}")
+    else:
+        print(f"Output dir does not exist, will be created: {OUTPUT_DIR}")
     
     # Training arguments
     training_args = TrainingArguments(
@@ -212,6 +216,7 @@ def main():
         greater_is_better=True,
         lr_scheduler_type="cosine",
         label_smoothing_factor=0.1,
+        save_on_each_node=True,
     )
     
     trainer = Trainer(
@@ -223,6 +228,18 @@ def main():
         compute_metrics=compute_metrics,
         callbacks=[EarlyStoppingCallback(early_stopping_patience=5)],
     )
+    
+    # Save initial model before training (epoch 0 checkpoint)
+    if checkpoint_path is None:
+        initial_ckpt = os.path.join(OUTPUT_DIR, "checkpoint-0")
+        if not os.path.exists(initial_ckpt):
+            print(f"Saving initial checkpoint to {initial_ckpt}")
+            trainer.save_model(initial_ckpt)
+            tokenizer.save_pretrained(initial_ckpt)
+    
+    print(f"\nOutput directory: {OUTPUT_DIR}")
+    print(f"Checkpoints will be saved to: {OUTPUT_DIR}/checkpoint-{{epoch}}")
+    print(f"Resume from: {checkpoint_path}")
     
     print("\nStarting training...")
     trainer.train(resume_from_checkpoint=checkpoint_path)
