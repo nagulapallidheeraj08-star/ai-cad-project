@@ -123,7 +123,8 @@ def main():
     # Configuration
     DATA_DIR = Path("./data")
     MODEL_NAME = "t5-base"  # Standard T5 tokenizer, publicly available
-    OUTPUT_DIR = "./cad_t5_base_finetuned"
+    # Use persistent path in Kaggle (/kaggle/working persists across restarts)
+    OUTPUT_DIR = "/kaggle/working/models/cad_t5_base_finetuned"
     NUM_EPOCHS = 40
     BATCH_SIZE = 8  # Adjust based on GPU memory (A100: 16-32, T4: 4-8)
     LEARNING_RATE = 2e-4
@@ -133,6 +134,9 @@ def main():
     
     torch.manual_seed(SEED)
     random.seed(SEED)
+    
+    # Create persistent output directory
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     
     print(f"Loading data from {DATA_DIR}...")
     samples = load_all_samples(DATA_DIR)
